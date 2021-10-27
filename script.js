@@ -6,12 +6,6 @@ let widthSlide = 1920;
 let indexImg = 0;
 let arraySlides = [];
 
-// Кнопки
-// Лево
-// const leftButton = document.getElementById('btn-prev');
-
-// Право
-// const rightButton = document.getElementById('btn-next');
 
 // Получаем все <img> и сохраняем пути к файлам в массив [arraySlides]
 let slides = document.querySelectorAll('.slide-single');
@@ -81,15 +75,6 @@ function rightMove() {
 
 
 // --- Основной блок ---
-
-// --- Подключаем слушателей на кнопки ---
-// leftButton.onclick = function () {
-//     leftMove();
-// }
-
-// rightButton.onclick = function () {
-//     rightMove();
-// }
 
 // Выводим начальные три слайда
 init();
